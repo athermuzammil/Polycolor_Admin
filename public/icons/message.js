@@ -1,0 +1,40 @@
+"use client";
+import { usePathname } from "next/navigation";
+import React from "react";
+
+const Message = ({ size }) => {
+  const pathname = usePathname();
+  const strokeColor =
+    pathname == "/de/dashboard/chat" || pathname == "/en/dashboard/chat"
+      ? "#16191D"
+      : "#737A82";
+
+  return (
+    <div>
+      <svg
+        width={size || "20"}
+        height={size || "20"}
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18.3332 5.20834V9.45832C18.3332 10.5167 17.9832 11.4083 17.3582 12.025C16.7415 12.65 15.8498 13 14.7915 13V14.5083C14.7915 15.075 14.1582 15.4167 13.6915 15.1L12.8832 14.5667C12.9582 14.3083 12.9915 14.025 12.9915 13.725V10.3334C12.9915 8.63336 11.8582 7.50001 10.1582 7.50001H4.49983C4.38317 7.50001 4.27484 7.50835 4.1665 7.51669V5.20834C4.1665 3.08334 5.58317 1.66667 7.70817 1.66667H14.7915C16.9165 1.66667 18.3332 3.08334 18.3332 5.20834Z"
+          stroke={strokeColor}
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M12.9915 10.3334V13.725C12.9915 14.025 12.9582 14.3083 12.8832 14.5667C12.5748 15.7917 11.5582 16.5583 10.1582 16.5583H7.8915L5.37483 18.2333C4.99983 18.4917 4.49983 18.2167 4.49983 17.7667V16.5583C3.64983 16.5583 2.94151 16.275 2.44984 15.7833C1.94984 15.2833 1.6665 14.575 1.6665 13.725V10.3334C1.6665 8.75002 2.64984 7.65835 4.1665 7.51668C4.27484 7.50835 4.38317 7.5 4.49983 7.5H10.1582C11.8582 7.5 12.9915 8.63335 12.9915 10.3334Z"
+          stroke={strokeColor}
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+  );
+};
+
+export default Message;

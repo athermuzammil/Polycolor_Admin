@@ -1,0 +1,19 @@
+import React from "react";
+
+const Threedots = () => {
+  return (
+    <svg
+      width="23"
+      height="5"
+      viewBox="0 0 28 6"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="3" cy="3" r="3" fill="#959595" />
+      <circle cx="14" cy="3" r="3" fill="#959595" />
+      <circle cx="25" cy="3" r="3" fill="#959595" />
+    </svg>
+  );
+};
+
+export default Threedots;

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "PolySans";
+  src: url("PolySansTrial-NeutralItalic.woff2") format("woff2"),
+    url("PolySansTrial-NeutralItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans";
+  src: url("PolySansTrial-MedianItalic.woff2") format("woff2"),
+    url("PolySansTrial-MedianItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans";
+  src: url("PolySansTrial-BulkyItalic.woff2") format("woff2"),
+    url("PolySansTrial-BulkyItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans";
+  src: url("PolySansTrial-Bulky.woff2") format("woff2"),
+    url("PolySansTrial-Bulky.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans";
+  src: url("PolySansTrial-Slim.woff2") format("woff2"),
+    url("PolySansTrial-Slim.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans";
+  src: url("PolySansTrial-SlimItalic.woff2") format("woff2"),
+    url("PolySansTrial-SlimItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans";
+  src: url("PolySansTrial-Median.woff2") format("woff2"),
+    url("PolySansTrial-Median.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans";
+  src: url("PolySansTrial-Neutral.woff2") format("woff2"),
+    url("PolySansTrial-Neutral.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
